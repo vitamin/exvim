@@ -1245,4 +1245,8 @@ let g:user_zen_leader_key = '<c-z>'
 "/////////////////////////////////////////////////////////////////////////////
 " Other settings
 "/////////////////////////////////////////////////////////////////////////////
+set cindent shiftwidth=2 " Set cindent on to autoinent when editing C/C++ file, with 2 shift width
+set tabstop=2 " Set tabstop to 2 characters
+set cursorcolumn
+set nobackup
 
