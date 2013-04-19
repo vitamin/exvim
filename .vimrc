@@ -1249,4 +1249,10 @@ set cindent shiftwidth=2 " Set cindent on to autoinent when editing C/C++ file, 
 set tabstop=2 " Set tabstop to 2 characters
 set cursorcolumn
 set nobackup
+set wrap
+
+" Octave syntax 
+augroup filetypedetect 
+  au! BufRead,BufNewFile *.m,*.oct set filetype=octave 
+augroup END 
 
